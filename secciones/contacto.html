@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="shortcut icon" href="../imagenes/logo-removebg-preview.png" type="image/x-icon">
+    <title>SneakerShop | Contact us!</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="../index.html">
+            <img class="img__logo" src="../imagenes/logo-removebg-preview.png" alt="logo">
+            <h3 class="h3__head">SneakerShop</h3>
+        </a>
+        
+        <nav>
+            <ul>
+                <li class="item"><a href="shoes.html">Shoes</a></li>
+                <li class="item"><a href="nosotros.html">About us</a></li>
+                <li class="item"><a href="contacto.html">Contact us!</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="main__con">
+        <section class="h1__shoes">
+            <h1 id="h1__sh">Get in touch!</h1>
+        </section>
+
+        <section class="form">
+    
+                <img src="../imagenes/background 6.jpg" alt="fon">
+
+            <form id="formulario">
+                <div class="input__form">
+                    <label for="name">Name</label>
+                    <input id="input1" type="text" placeholder="What's your name?" required>
+                    <small class="error"></small>
+                </div>
+                <div class="input__form">
+                    <label for="surname">Last name</label>
+                    <input id="input2" type="text" placeholder="What's your last name?" required>
+                    <small class="error"></small>
+                </div>
+                <div class="input__form">
+                    <label for="E-mail">E-mail</label>
+                    <input id="input3" type="email" placeholder="What's your e-mail?" required>
+                    <small class="error"></small>
+                </div>
+                <div class="input__form">
+                    <label for="phone">Phone</label>
+                    <input id="input4" type="phone" placeholder="What's your phone number?" required>
+                    <small class="error"></small>
+                </div>
+                <div class="input__form">
+                    <label for="city">Do you live in the USA?</label>
+                    <select id="input5" name="city" required>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                        <option value="udc">I don't wish to answer</option>
+                    </select>
+                    <small class="error"></small>
+                </div>
+                <div class="input__form">
+                    <label for="phone">Your message: </label>
+                    <textarea id="input6" name="message" cols="35" rows="7" placeholder="Please write you message here." required></textarea>
+                    <small class="error"></small>
+                </div>
+
+                <button class="click">Submit</button>
+                
+
+            </form>
+
+            
+            
+        </section>
+        <section>
+            <div id="slideShow"></div>
+        </section>
+    </main>    
+    <footer>
+        <nav>
+            <a class="footer__img" href="../index.html"><img src="../imagenes/logo-removebg-preview.png"></a>
+
+            <ul class="footer__nav">
+                <li><a href="secciones/shoes.html">Shoes</a><li>
+                <li><a href="secciones/nosotros.html">About us</a></li>               
+                <li><a href="secciones/contacto.html">Contact us!</a></li>      
+            </ul>
+
+            <div class="footer__redes">
+                <a target="_blank" href="https://twitter.com/JoacoLobru"><img src="../imagenes/twitter.png" alt="Twitter"></a>
+                <a target="_blank" href="https://www.instagram.com/joacolobru/"><img src="../imagenes/instagram.png" alt="instagram"></a>
+                <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGMvXrxRGPzfkWnkMVvsQSxlvHNlCftFSCqSqCxVxRtdMBnSBtjXPrvxKzDWKtcLJhwnGjs"><img src="../imagenes/gmail.png" alt="gmail"></a>
+                <a target="_blank" href="https://wa.me/+541149395180"><img src="../imagenes/whatsapp.png" alt="whatsapp"></a>
+            </div>
+
+            <p class="footer__copy">&copy;2022 All Rights Reserved.</p>
+        </nav>
+        
+    </footer>
+    <script src="../js/contact.js"></script> 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

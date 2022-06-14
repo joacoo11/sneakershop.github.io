@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <script src="../js/shoppingcart.js" async></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
+    <link rel="shortcut icon" href="../imagenes/logo-removebg-preview.png" type="image/x-icon">
+    <title>SneakerShop | Shoes</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="../index.html">
+            <img class="img__logo" src="../imagenes/logo-removebg-preview.png" alt="logo">
+            <h3 class="h3__head">SneakerShop</h3>
+        </a>
+        
+        <nav>
+            <ul>
+                <li class="item"><a href="shoes.html">Shoes</a></li>
+                <li class="item"><a href="nosotros.html">About us</a></li>
+                <li class="item"><a href="contacto.html">Contact us!</a></li>
+
+            </ul>
+        </nav>
+    
+    </header>
+
+    <main class="shoes__main">
+        <section class="h1__shoes">
+            <h1 class="h1__sh">Check out our stock!</h1>
+        </section>
+
+        <section class="shoes__cards">
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/4.png" alt="kyrie 4">
+                <p class="title__shoes">Kyrie 4</p>
+                <p class="p__shoes">$32000</p>
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/ky3.png" alt="kyrie 3">
+                <p class="p__shoes">Kyrie 3</p>
+                <p class="p__shoes">$36000</p>
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/lebro.png" alt="kyrie 4">
+                <p class="title__shoes">LeBron 12</p>
+                <p class="p__shoes">$41000</p>
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img ky3">
+                <img class="img-shoes" src="../Shoes/ike-kyrie-3-basketball-shoe-nike-11563228103zb3wo3uuxc.png" alt="kyrie 4">
+                <p class="title__shoes">Kyrie 3</p>
+                <p class="p__shoes">$44000</p>
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/lebron-11-graffiti-nike-lebron-11-mens-sports-shoes-png-favpng-AUzetSVHx8HN5C8sR35wbG1vx.jpg" alt="kyrie 4">
+                <p class="title__shoes">LeBron 11</p>  
+                <p class="p__shoes">$28000</p> 
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/air-jordan-basketball-shoe-nike-sneakers-basketball-shoe.png" alt="kyrie 4">
+                <p class="title__shoes">Jordan Superfly 5.0</p>
+                <p class="p__shoes">$25000</p> 
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/imgbin-nike-lebron-14-sports-shoes-basketball-shoe-nike-lebron-je1ziyCAdSNdjyXNshKnTtbHr.jpg" alt="kyrie 4">
+                <p class="title__shoes">LeBron 14</p>
+                <p class="p__shoes">$29000</p>
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/imgbin-golden-state-warriors-nike-basketball-shoe-kevin-durant-e491hRsEb02xETiKZVG6Bc556.jpg" alt="kyrie 4">
+                <p class="title__shoes">KD 9</p>
+                <p class="p__shoes">$42000</p>
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/grinch.png" alt="kyrie 4">
+                <p class="title__shoes">Kobe 5</p>
+                <p class="p__shoes">$72000</p>
+                <a class="add-cart">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/kyrie 5.jpg" alt="kyrie 5">
+                <p class="title__shoes">Kyrie 5</p>
+                <p class="p__shoes">$63000</p>
+                <a class="add-cart ">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/kyrie 6.png" alt="kyrie 6">
+                <p class="title__shoes">Kyrie 6</p>
+                <p class="p__shoes">$63000</p>
+                <a class="add-cart ">Buy</a>
+            </div>
+            <div class="shoes__img">
+                <img class="img-shoes" src="../Shoes/Adidas_Nmd.png" alt="NMD">
+                <p class="title__shoes">Adidas NMD</p>
+                <p class="p__shoes">$22000</p>
+                <a class="add-cart">Buy</a>
+            </div>
+    </main>
+
+    <main class="shoes__main">
+    <section class="shop-h1">
+        <h1 class="shop-h1-text">Shopping Cart</h1>
+    </section>
+    
+    <section class="container">
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-price cart-header cart-column">Price</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Buy</button>
+    </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a class="footer__img" href="../index.html"><img src="../imagenes/logo-removebg-preview.png"></a>
+
+            <ul class="footer__nav">
+                <li><a href="secciones/shoes.html">Shoes</a><li>
+                <li><a href="secciones/nosotros.html">About us</a></li>               
+                <li><a href="secciones/contacto.html">Contact us!</a></li>    
+            </ul>
+
+            <div class="footer__redes">
+                <a target="_blank" href="https://twitter.com/JoacoLobru"><img src="../imagenes/twitter.png" alt="Twitter"></a>
+                <a target="_blank" href="https://www.instagram.com/joacolobru/"><img src="../imagenes/instagram.png" alt="instagram"></a>
+                <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGMvXrxRGPzfkWnkMVvsQSxlvHNlCftFSCqSqCxVxRtdMBnSBtjXPrvxKzDWKtcLJhwnGjs"><img src="../imagenes/gmail.png" alt="gmail"></a>
+                <a target="_blank" href="https://wa.me/+541149395180"><img src="../imagenes/whatsapp.png" alt="whatsapp"></a>
+            </div>
+
+            <p class="footer__copy">&copy;2022 All Rights Reserved.</p>
+        </nav>
+        
+    </footer>
+
+
+</body>
+</html>
